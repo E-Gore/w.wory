@@ -1,0 +1,63 @@
+import React from "react";
+import { Footer } from "./Footer";
+import { Header } from "./Header";
+import "./style.css";
+import workiTheme1 from "./worki-theme-1.png";
+
+export const Homepage = () => {
+  return (
+    <div className="homepage">
+      <div className="div-3">
+        <div className="text-wrapper-17">w.wory</div>
+
+        <div className="text-wrapper-18">w.wory</div>
+
+        <div className="text-wrapper-19">avaliable</div>
+
+        <p className="text-wrapper-20">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
+          Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
+          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
+          tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
+          suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
+          maximus ante. ( tu piszesz o projekcie jakim są worki i wgl)
+        </p>
+
+        <Footer
+          className="footer-instance"
+          group="image.png"
+          line="image.svg"
+        />
+        <img className="worki-theme" alt="Worki theme" src={workiTheme1} />
+
+        <Header className="header-instance" />
+        <div className="rectangle" />
+
+        <div className="rectangle-2" />
+
+        <div className="rectangle-3" />
+
+        <div className="rectangle-4" />
+
+        <div className="rectangle-5" />
+
+        <div className="text-wrapper-21">Color:</div>
+
+        <div className="text-wrapper-22">one size</div>
+
+        <div className="text-wrapper-23">diameter: 17</div>
+
+        <div className="text-wrapper-24">height: 36</div>
+
+        <div className="text-wrapper-25">DARK PURPLE</div>
+
+        <p className="text-wrapper-26">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
+          Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
+          mattis ligula consectetur, ultrices mauris. ( tu piszesz o materiale i
+          składzie
+        </p>
+      </div>
+    </div>
+  );
+};
